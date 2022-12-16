@@ -29,7 +29,7 @@ for r = 1:n % Runs through rows and columns
         if x == A(r,c) % Detects if the value is found in the array
             y = 1;
             if n > 1 && m > 1% Adjusts the index count depending on the type of array present
-                index(u) = (m*(c-1))+r;
+                index(u) = (m*(c-1))+r);
                 u = u + 1;
             else
                 index(z) = c;
